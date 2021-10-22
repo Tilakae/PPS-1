@@ -1,0 +1,730 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+@import "https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css";
+.white{
+color: ivory;
+padding-left: 8px;
+}
+
+.red{
+    padding-left: 16px;
+    padding-right: 16px;
+    color:#fff
+    ;
+}
+.red:hover{
+    color: royalblue;
+    background-color: coral;
+}
+.container{
+    width: 100%;
+    background-color:green;
+}
+.tree{
+    display:inline-flex;
+    align-items: right;  
+    background-color:#fff;
+    border: 0;
+    width: 100px;
+}
+button{
+    width: 100px;
+    border: 10%;
+        padding: 12px 10px;
+    outline: none;
+    color: #fff;
+    background-image:linear-gradient(to right, #fb5283, #ff3527 ) ;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    transform: width 0.5s ;
+    padding: 5px;
+    }
+    button svg {
+        width: 90px;
+        height: 20px;
+        background-image:linear-gradient(to right, #fb5283, #ff3527 ) ;
+        display : none;
+    }
+    button:hover svg{
+        display: block;
+    }
+    button:hover{
+        width: 180px;
+        display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+   .icon-1{
+       float:center;
+       align-items: center;
+       position: absolute;
+   }
+   .leading-relaxed{
+       color:black;
+   }
+   .teachers{
+       color: green;
+       font-size: 30px;
+       font-family: Comic Sans MS;
+   }
+   .info{
+       color:#232226;
+       font-size: 18px;
+       font-family: Comic Sans MS;
+   }
+   .container-2{
+       margin-left: 10%;
+       padding-left: 20px;
+       padding-right: 20px;
+       width: 20%;
+       margin-top: 5px;
+
+       background-size: contain;
+   }
+   .container-3{
+       width: 20%;
+       margin-top: 5px;
+       padding-right: 20px;
+       }
+   .cotainer-4{
+       width: 20%;
+       margin-top: 5px;
+       padding-right: 20px;
+   }
+   .container-5{
+    width: 20%;
+    margin-top: 5px;
+        padding-right: 20px;
+         }   
+      .watermark img{    
+          width: 100%;
+          height: 95%;
+           background-size:cover;
+           background-attachment: fixed; 
+           position: relative
+           ;
+           opacity: 0.3
+
+           ;
+           order: initial;
+
+       }
+body{
+    background-image: linear-gradient(45deg, ivory, whitesmoke,lightgrey);
+}
+.maps   {
+    width: 100%;
+    margin-left: 150px;
+    margin-top: 130px;
+    position: relative;
+}
+section .text-gray-600 body-font{
+background-color: aqua;
+}
+#09{
+    background-color: aqua;
+}
+p.leading-relaxed-1{
+    color: tomato;
+
+}
+.far fa-comments{
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    font-size: 1.3em;
+}
+.is{
+    position: absolute;
+    float: left;
+    left: 200px;
+    margin-top: 8px;
+    margin-left: 6px;
+    fill: wheat;
+    ;
+}
+i{
+    position: absolute;
+    float: left;
+    left: 20px;
+    margin-top: 8px;
+    margin-left: 6px;
+    fill: wheat;
+    ;
+}
+#message{
+    padding-left: 50px;
+    color: teal;
+    border: 5px solid;
+    background-color: wheat; 
+    width: 100%;
+}
+.e{
+    padding-left: 50px;
+    width: 100%;
+}
+.nama{
+    padding-left: 50px;
+    color: teal;
+    border: 5px solid;
+    background-color: wheat; 
+    width: 100%;
+}
+label{
+    color:violet
+}
+.e{
+    color: teal;
+    border: 5px solid;
+    background-color: wheat; 
+}
+footer{
+    height: 100px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+
+    width: 100%;
+
+}
+.feet{
+    display: inline-flex;
+    padding: 10px;
+    float: right;
+    margin-top: 30%;
+}
+.rel{
+    padding-left: 12px;
+    margin-top: 12%;
+    position: relative;
+}
+#ral{
+    padding-left: 12px;
+    margin-top: -10%;
+    position: relative;
+}
+
+.re{
+    color: white;
+    padding: 10px;
+    align-items: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    margin-top: 2%;
+}
+.category{
+    display: inline-flex;
+    width: 100%;
+    padding-bottom: 50px;
+}
+.map{
+    padding-top: 10px;
+}
+.appointment{
+    color: #fb5283;
+    padding-left: 150px
+    ;
+    margin-right: -200px ;
+}
+.ab{
+    padding-left: 50px;
+    color: teal;
+    border: 5px solid;
+    background-color: white; 
+    width: 100%;
+}
+.as{
+    padding-left: 50px;
+    color: teal;
+    border: 5px solid;
+    background-color: white; 
+    width: 100%;
+}
+label{
+    color: #000;
+    font-weight: 600;
+}
+#abc{
+    padding-left: 50px;
+    color: teal;
+    border: 5px solid;
+    background-color: white; 
+    width: 100%;
+}
+.inclusion{
+    align-items: center;
+    float: right;
+    padding-left: 100px;
+    width: 100%;
+
+}
+.location{
+    padding-left: 150px;
+    width: 100%;
+}
+.co{
+    padding-left: 50px;
+}
+.inclusive{
+    width: 100%;
+}
+.sub{
+    width: 90px;
+        height: 50px;
+        background-image:linear-gradient(to right, #fb5283, #ff3527 ) 
+        ;
+        font-size: 15px;
+        font-family: comic sans MS;
+        margin-left: 0px;
+        
+}
+.all{
+    background-image: linear-gradient(45deg, ivory, whitesmoke,lightgrey);
+  margin-top: 0px;
+}
+.MD{
+ 
+    width: 100%;
+    color: black;
+}
+#MBK{
+    width: 300px;
+    height: 300px;
+    text-overflow: hidden
+    ;
+    font-family: monospace;
+}
+.ci-1{
+margin-left: 200px;
+}
+.ci-2{
+    margin-right: 200px;
+    background-repeat: no-repeat;
+}
+.P{
+    color: green;
+    font-style: italic;
+    font-weight: 800;
+}
+.Q{
+    color: green;
+    font-style: italic;
+    font-weight: 800;
+}
+.M{
+    color: green;
+    font-style: italic;
+    font-weight: 800;
+}
+.O{
+    color: green;
+    font-style: italic;
+    font-weight: 800;
+}
+.N{
+    color: green;
+    font-style: italic;
+    font-weight: 800;
+}
+.prev   {
+    height: 420px;
+    width: 420px;
+}
+.prev{
+   float: right;
+   margin-left: 500px;
+   margin-right: 0px;
+   margin-bottom: -100px;
+   border: 8px solid pink;
+}
+.leading-relaxed{
+    padding-right: 50px;
+}
+.ad{
+    padding-left: 70px;
+    color: teal;
+    border: 5px solid;
+    background-color: white; 
+    width: 100%;
+    height: 50px;
+}
+#abd{
+    padding-left: 70px;
+    font-size: 18px;
+    color: teal;
+    border: 5px solid;
+    background-color: white; 
+    width: 100%;
+    height: 50px;
+}
+.ame{
+    margin-right: 200px;
+    margin-left: 200px;
+    font-size: 18px;
+}
+.mail{
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 18px;
+}
+.mee{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.a{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+#d{
+    color: #fff;position: absolute;
+    float: left;
+    left: 380px;
+    size: 100px;
+    ;
+    padding-top: 6px;
+    margin-top: 0px;
+    margin-left: 0px;
+    fill: wheat;
+background-color: teal
+    ;
+    padding-left: 10px;
+width: 55px;
+height: 50px;
+}
+#is{
+    color: #fff;position: absolute;
+    float: left;
+    left: 200px;
+    size: 95px;
+    ;
+    padding-top: 6px;
+    margin-top: 0px;
+    margin-left: 0px;
+    fill: wheat;
+background-color: teal
+    ;
+    padding-left: 10px;
+width: 55px;
+height: 50px;
+}
+#r{
+    color: #fff;position: absolute;
+    float: left;
+    left: 200px;
+    size: 100px;
+    ;
+    padding-top: 6px;
+    margin-top: 0px;
+    margin-left: 0px;
+    fill: wheat;
+background-color: teal
+    ;
+    padding-left: 10px;
+width: 55px;
+height: 50px;
+}
+h1{
+    font-size: 32px;
+    color: green;
+    margin-left: 580px;
+    margin-top: 0pt;
+    
+}
+
+fieldset{
+    border: 4px solid;
+    margin-left: 180px;
+    margin-right: 180px;
+    background-color:aquamarine;
+    margin-bottom: 0px;
+    
+}
+.gender{
+      margin-left: 200px;
+    margin-right: 200px;
+    font-size: 18px;
+}
+select{
+    width: 600px;
+    padding-left: 20px;
+    height: 50px;
+    border: teal;
+}
+#dd{
+    background-color:#fff;
+color:teal;
+border: 5px solid teal;
+width: 100%;}
+#cd{
+    position: absolute;
+    color: teal;
+        background-color:gainsboro;
+}
+.male{
+    position: absolute;
+    color: black;
+    background-color: chocolate;
+}
+
+.h2{
+    margin-left: 40px;
+font-family: Comic Sans MS;
+color: gray;
+font-size: 24px;}
+.h1{
+    margin-left: 350px;
+    color: green;
+    font-size: 32px;
+    font: center;
+}
+#af{
+    color: #fff;position: absolute;
+    float: left;
+    left: 200px;
+    size: 95px;
+    ;
+    padding-top: 6px;
+    margin-top: 0px;
+    margin-left: 180px;
+    fill: wheat;
+background-color: teal
+    ;
+    padding-left: 10px;
+width: 55px;
+height: 50px;}
+#bd{
+    width:20%
+;
+    background-color:#fff;
+    color:teal;
+    border: 5px solid teal;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#rd{
+    width: 15%;
+    background-color:#fff;
+    color:teal;
+    border: 5px solid teal;
+    height: 50px;
+    padding-left: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+#td{
+    width: 15%;
+    height: 50px;
+    padding-left: 20px;
+    background-color:#fff;
+    color:teal;
+    border: 5px solid teal;
+}
+#yd{ padding-left: 70px;
+    color: teal;
+    border: 5px solid;
+    background-color: white; 
+    width: 100%;
+    height: 50px;
+    margin-right: 50px;
+    
+}
+input{
+    font-size: 18px
+;
+}
+.address{
+    padding-left: 190px;
+    
+        padding-right: 190px;
+    
+    width: 100%;
+    height: 50px;
+    
+}
+#ff{
+    color: #fff;position: absolute;
+    float: left;
+    left: 10px;
+    size: 95px;
+    ;
+    padding-top: 8px;
+    margin-top: 24px;
+    margin-left: 180px;
+    fill: wheat;
+background-color: teal
+    ;
+    padding-left: 10px;
+width: 55px;
+height: 45px;
+
+}
+#bf{
+    color: #fff;position: absolute;
+    float: left;
+    left: 10px;
+    size: 99px;
+    ;
+    padding-top: 8px;
+    margin-top: 0px;
+    margin-left: 180px;
+    fill: wheat;
+background-color: teal
+    ;
+    padding-left: 10px;
+width: 55px;
+height: 46px;}
+.Telephone{
+    padding-left: 190px;
+    
+    padding-right: 190px;
+
+width: 100%;
+height: 50px;
+}
+.form{
+    margin-top: 0px;
+}
+.ptm{
+    margin-top: 0pc;
+}
+.ptm-1{
+    padding-left: 190px;
+    
+    padding-right: 190px;
+
+width: 100%;
+height: 50px;
+}
+.ptm-2{
+    padding-left: 190px;
+    
+    padding-right: 190px;
+
+width: 100%;
+height: 50px;
+}
+#ptm-11{
+    width: 100%;
+    color: teal;
+    border: 5px solid;
+    background-color: white; 
+    width: 100%;
+    height: 50px;
+    margin-right: 50px;
+padding-left: 80px;
+}
+#ptm-1{
+    position: absolute;
+    color: white;
+    background-color: teal;
+    left: 10px;
+    size: 99px;
+    ;
+    padding-top: 8px;
+    margin-top: 0px;
+    margin-left: 180px;
+    fill: wheat;
+background-color: teal
+    ;
+    padding-left: 10px;
+width: 55px;
+height: 46px;
+
+}
+#ptm-111{
+    width: 40%;
+    color: teal;
+    border: 5px solid;
+    background-color: white; 
+    margin-right: 30px;
+    height: 50px;
+    margin-right: 10px;
+padding-left: 80px;
+}
+#ptm-2{
+    position: absolute;
+    color: white;
+    background-color: teal;
+    left: 10px;
+    size: 99px;
+    ;
+    padding-top: 8px;
+    margin-top: 0px;
+    margin-left: 270px;
+    fill: wheat;
+background-color: teal
+    ;
+    padding-left: 10px;
+width: 55px;
+height: 46px;
+}
+#ptm-222{
+    width: 30%;
+    color: teal;
+    border: 5px solid;
+    background-color: white; 
+    margin-right: 30px;
+    height: 50px;
+    margin-right: 0px;
+padding-left: 80px;
+}
+#ptm-22{
+    position: absolute;
+    color: white;
+    background-color: teal;
+    left: 10px;
+    size: 99px;
+    ;
+    padding-top: 8px;
+    margin-top: 0px;
+    margin-left: 532px;
+    fill: wheat;
+background-color: teal
+    ;
+    padding-left: 10px;
+width: 55px;
+height: 46px;
+}
+label{
+    font: size 18px;
+    font-weight: 600;
+    }
+#ptm-33{
+    position: absolute;
+    color: white;
+    background-color: teal;
+    left: 10px;
+    size: 99px;
+    ;
+    padding-top: 8px;
+    margin-top: 0px;
+    margin-left: 522px;
+    fill: wheat;
+background-color: teal
+    ;
+    padding-left: 10px;
+width: 55px;
+height: 46px;
+}
+#ptm-3{
+    position: absolute;
+    color: white;
+    background-color: teal;
+    left: 10px;
+    size: 99px;
+    ;
+    padding-top: 8px;
+    margin-top: 0px;
+    margin-left: 224px;
+    fill: wheat;
+background-color: teal
+    ;
+    padding-left: 10px;
+width: 55px;
+height: 46px;
+}
+
+
